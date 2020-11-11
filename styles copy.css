@@ -1,0 +1,222 @@
+*{
+padding: 0;
+margin: 0;
+text-align: center;
+}
+body{
+background: red;
+font-family: 'Roboto', sans-serif;
+background-color: #edf6f9;}
+
+a{
+font-style: none;
+font-family: 'Roboto', sans-serif;
+color:  #edf6f9;
+}
+a:hover{
+font-style: none;
+color:  #edf6f9;
+}
+/* header styles  */
+header{
+width: 100%;
+height: 250px;
+display: block;
+background-image: url(img/headerBack.jpg);
+position: relative;
+box-shadow: 5px 5px 20px;
+z-index: 2;
+}
+.header{
+background-color: #e63946;
+position: absolute;
+width: 50%;
+left: 25%;
+top:25%;
+border-width: thin;
+border-style: dotted;
+border-color: black;
+border-radius: 5px;
+}
+h1,h2,h3,h4,h5,h6{
+color: #f1faee;
+font-family: 'Bangers', cursive;
+}
+.header h1{
+text-shadow: 5px 5px 20px black;
+}
+.header p {
+font-family: 'Bebas Neue', cursive;
+font-size: 1.5rem;
+color: #black;
+background-color: #f1faee;
+}
+
+/* toggle button styles */
+.toggle-buttons{
+  width: 100%;
+  height:70px;
+  background: #e63946;
+  position: fixed;
+  box-shadow: 3px 3px 3px;
+  z-index: 1;
+}
+
+.projects{
+width: 100%;
+padding: 2%;
+text-align: center;}
+
+.card{
+margin-top: 20px;
+margin-left: 90px;
+}
+.card-body{
+padding: 0;
+margin: 0;
+height: 120px;}
+.card-title{
+color: black;
+margin-top: 10px;}
+
+
+
+
+
+
+
+/* about section */
+.about{
+width: 70%;
+height: 200px;
+margin: 20px auto;
+background: #111224;
+border-radius: 30px;
+box-shadow: 3px 3px 3px black;
+position: relative;
+overflow: hidden;
+}
+.about img{
+  width: 140px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-radius: 5%;
+  display: inline-block;
+
+}
+.about h2{
+position: absolute;
+left: 170px;
+top: 20px;
+color: white;
+font-family: 'Bangers', cursive;
+}
+.about h3 {
+  position: absolute;
+  left: 170px;
+  top: 60px;
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Bebas Neue', cursive;
+  text-align: left;
+
+}
+
+/* educaton section */
+.educaton{
+padding-bottom: 5%;
+width: 100%;
+margin: 0;
+background-color: #588b8b;
+height: 200px;
+}
+
+/* leftside of edu */
+.element{
+position: relative;
+color: #f1faee;
+margin: 0 auto;
+}
+.element .logo{
+position: absolute;
+left:30px;
+top:30px;
+font-size: 90px;
+}
+
+.element .info{
+position: absolute;
+left:140px;
+top:60px;
+}
+.info h1, .modified-par{
+text-align: left;
+margin: 0;
+font-size: 20px;
+}
+
+.modified-par{
+  font-family: 'Bebas Neue', cursive;
+}
+.colored-span{
+color:#253237;
+}
+
+.contact{
+width: 100%;
+}
+.contact-item{
+color:#e63946; }
+.contact-item i{
+font-size: 5rem;
+}
+.mail-btn{
+padding: 10px;
+margin: 20px 0 20px;
+width: 30%;}
+
+.footer{
+width: 100%;
+height: 50px;
+background-color: white;
+padding: 10px;
+
+}
+.footer p, .footer a{
+margin:0;
+font-size: 16px;
+text-align: left;
+font-family: monospace;}
+.footer a{
+color:#e63946; }
+
+.toggle-buttons{
+  padding: 8px;
+}
+
+@media (max-width:856px){
+  header{
+    height: 320px;
+  }
+  .about{
+    height: 250px;
+    width: 80%;
+  }
+  .about h3{
+    font-size: 0.9rem;
+  }
+  .about img{
+    top:70px;
+  }
+  .toggle-buttons{
+  display: none;}
+  .educaton{
+  height: 500px;}
+
+.projects{
+  text-align: center;
+  }}
+  card
+
+}
